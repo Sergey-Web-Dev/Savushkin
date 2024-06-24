@@ -13,6 +13,12 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        rotonda: ["LXGW WenKai TC", "cursive"],
+      },
+      dropShadow: {
+        "3xl": "0 0 40px rgba(240, 245, 217, 0.5)",
+      },
     },
   },
   plugins: [],
