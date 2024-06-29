@@ -1,16 +1,16 @@
 "use client";
 
-import Header from "@/components/Header";
+import Header from "../components/Header";
 import { MouseParallax } from "react-just-parallax";
-import Thought from "@/components/Thought";
+import Thought from "../components/Thought";
 import "../components/thought.css";
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@/components/ui/tooltip";
-import Footer from "@/components/Footer";
+} from "../components/ui/tooltip";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
