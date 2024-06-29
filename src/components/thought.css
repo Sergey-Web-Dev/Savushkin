@@ -1,0 +1,18 @@
+.thought {
+  position: absolute;
+  top: 7rem;
+  left: 22rem;
+}
+
+.thought:hover {
+  .tit {
+    display: block;
+  }
+}
+
+.tit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
