@@ -10,6 +10,9 @@ const config = {
   ],
   prefix: "",
   theme: {
+    screens: {
+      mb: { min: "300px", max: "767px" },
+    },
     container: {
       center: true,
       padding: "2rem",
@@ -18,6 +21,9 @@ const config = {
       },
     },
     extend: {
+      content: {
+        link: 'url("/cloud.svg")',
+      },
       fontFamily: {
         rotonda: ["var(--font-rotonda)"],
         fry: ["var(--font-fry)"],

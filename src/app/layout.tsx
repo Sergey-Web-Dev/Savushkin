@@ -27,7 +27,9 @@ const fry = localfont({
 
 export const metadata: Metadata = {
   title: "Облака молока",
-  description: "Савушкин Fest",
+  description:
+    "Захватывающее молочное приключение от компании «Савушкин продукт». Встречаемся 26 июля в парке Мира!",
+  icons: "/faviconCloud.png",
 };
 
 export default function RootLayout({
