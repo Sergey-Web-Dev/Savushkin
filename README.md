@@ -2,6 +2,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 You can visit website within the link [oblaka-moloka.by](https://oblaka-moloka.by/).
 
+<img src="./public/1page.png" >
+
 ## Getting Started
 
 First, run the development server:
