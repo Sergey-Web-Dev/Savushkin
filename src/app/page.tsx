@@ -114,12 +114,12 @@ export default function Home() {
           </MouseParallax>
         </section>
 
-        <section className="w-[95%] mx-auto mt-6 bg-[#e6faff] rounded-3xl">
+        <section className="w-[95%] mx-auto mt-6 ">
           <div className="w-full">
-            <div className="relative mb:p-1.5 p-6 flex justify-center items-center">
+            <div className="relative mb:p-1.5 p-8 px-16 flex justify-center items-center">
               <img
-                src="/map.png"
-                alt="map.png"
+                src="/map11.svg"
+                alt="map11.svg"
                 className="relative w-full h-auto z-0"
               />
 
@@ -633,7 +633,7 @@ export default function Home() {
 
               <TooltipProvider delayDuration={100}>
                 <Tooltip>
-                  <TooltipTrigger className="absolute top-[64%] left-[48%]">
+                  <TooltipTrigger className="absolute top-[64%] left-[55%]">
                     <img
                       src="фотоКвест.png"
                       alt="фотоКвест.png"
@@ -652,7 +652,7 @@ export default function Home() {
 
               <TooltipProvider delayDuration={100}>
                 <Tooltip>
-                  <TooltipTrigger className="absolute top-[64%] left-[50%]">
+                  <TooltipTrigger className="absolute top-[64%] left-[58%]">
                     <img
                       src="выдача призов.png"
                       alt="выдача призов.png"
@@ -690,7 +690,7 @@ export default function Home() {
 
               <TooltipProvider delayDuration={100}>
                 <Tooltip>
-                  <TooltipTrigger className="absolute top-[72%] left-[50%]">
+                  <TooltipTrigger className="absolute top-[72%] left-[55%]">
                     <img
                       src="зона отдыха.png"
                       alt="зона отдыха.png"
@@ -709,7 +709,7 @@ export default function Home() {
 
               <TooltipProvider delayDuration={100}>
                 <Tooltip>
-                  <TooltipTrigger className="absolute top-[72%] left-[55%]">
+                  <TooltipTrigger className="absolute top-[72%] left-[60%]">
                     <img
                       src="зона отдыха.png"
                       alt="зона отдыха.png"
@@ -748,7 +748,7 @@ export default function Home() {
 
               <TooltipProvider delayDuration={100}>
                 <Tooltip>
-                  <TooltipTrigger className="absolute top-[68%] left-[62%]">
+                  <TooltipTrigger className="absolute top-[68%] left-[70%]">
                     <img
                       src="настольные игры.png"
                       alt="настольные игры.png"
@@ -767,7 +767,7 @@ export default function Home() {
 
               <TooltipProvider delayDuration={100}>
                 <Tooltip>
-                  <TooltipTrigger className="absolute top-[55%] left-[58%]">
+                  <TooltipTrigger className="absolute top-[55%] left-[65%]">
                     <img
                       src="беседочка.png"
                       alt="беседочка.png"
@@ -786,7 +786,7 @@ export default function Home() {
 
               <TooltipProvider delayDuration={100}>
                 <Tooltip>
-                  <TooltipTrigger className="absolute top-[51%] left-[62%]">
+                  <TooltipTrigger className="absolute top-[51%] left-[70%]">
                     <img
                       src="стадион теос.png"
                       alt="стадион теос.png"
@@ -805,7 +805,7 @@ export default function Home() {
 
               <TooltipProvider delayDuration={100}>
                 <Tooltip>
-                  <TooltipTrigger className="absolute top-[48%] left-[58%]">
+                  <TooltipTrigger className="absolute top-[48%] left-[63%]">
                     <img
                       src="йогурт бар.png"
                       alt="йогурт бар.png"
@@ -824,7 +824,7 @@ export default function Home() {
 
               <TooltipProvider delayDuration={100}>
                 <Tooltip>
-                  <TooltipTrigger className="absolute top-[48%] left-[55%]">
+                  <TooltipTrigger className="absolute top-[48%] left-[65%]">
                     <img
                       src="гантеля.png"
                       alt="гантеля.png"
@@ -845,7 +845,7 @@ export default function Home() {
 
               <TooltipProvider delayDuration={100}>
                 <Tooltip>
-                  <TooltipTrigger className="absolute top-[45%] left-[50%]">
+                  <TooltipTrigger className="absolute top-[45%] left-[55%]">
                     <img
                       src="сценка.png"
                       alt="сценка.png"
@@ -902,7 +902,7 @@ export default function Home() {
 
               <TooltipProvider delayDuration={100}>
                 <Tooltip>
-                  <TooltipTrigger className="absolute top-[24%] left-[48%]">
+                  <TooltipTrigger className="absolute top-[23%] left-[48%]">
                     <img
                       src="сыроварня.png"
                       alt="сыроварня.png"
@@ -921,7 +921,7 @@ export default function Home() {
 
               <TooltipProvider delayDuration={100}>
                 <Tooltip>
-                  <TooltipTrigger className="absolute top-[27%] left-[54%]">
+                  <TooltipTrigger className="absolute top-[27%] left-[57%]">
                     <img
                       src="ожившие скульптуры.png"
                       alt="ожившие скульптуры.png"
@@ -1284,126 +1284,134 @@ export default function Home() {
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/ps1.png" alt="ps1.png" />
                     </div>
-                    <h2 className="uppercase">Киннект игра</h2>
+                    <h2 className="uppercase text-white">Киннект игра</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/рогатка.png" alt="рогатка.png" />
                     </div>
-                    <h2 className="uppercase">Большая рогатка</h2>
+                    <h2 className="uppercase text-white">Большая рогатка</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/фотогруп.png" alt="фотогруп.png" />
                     </div>
-                    <h2 className="uppercase">фотозона</h2>
+                    <h2 className="uppercase text-white">фотозона</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/академия.png" alt="академия.png" />
                     </div>
-                    <h2 className="uppercase">Академия «Суперкид»</h2>
+                    <h2 className="uppercase text-white">
+                      Академия «Суперкид»
+                    </h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/куб-цепи.png" alt="куб-цепи.png" />
                     </div>
-                    <h2 className="uppercase">констурктор Голберга</h2>
+                    <h2 className="uppercase text-white">
+                      констурктор Голберга
+                    </h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/узел.png" alt="узел.png" />
                     </div>
-                    <h2 className="uppercase">Веревочный комплекс</h2>
+                    <h2 className="uppercase text-white">
+                      Веревочный комплекс
+                    </h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/снимок.png" alt="снимок.png" />
                     </div>
-                    <h2 className="uppercase">Облачный кинотеатр</h2>
+                    <h2 className="uppercase text-white">Облачный кинотеатр</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/стенаРаскраска.png" alt="стенаРаскраска.png" />
                     </div>
-                    <h2 className="uppercase">Стена раскраска</h2>
+                    <h2 className="uppercase text-white">Стена раскраска</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/логика.png" alt="логика.png" />
                     </div>
-                    <h2 className="uppercase">логические игры</h2>
+                    <h2 className="uppercase text-white">логические игры</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/ножницы.png" alt="ножницы.png" />
                     </div>
-                    <h2 className="uppercase">картонополис</h2>
+                    <h2 className="uppercase text-white">картонополис</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/кисть.png" alt="кисть.png" />
                     </div>
-                    <h2 className="uppercase">спагеттиктура</h2>
+                    <h2 className="uppercase text-white">спагеттиктура</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/ракета.png" alt="ракета.png" />
                     </div>
-                    <h2 className="uppercase">путешествие в космос</h2>
+                    <h2 className="uppercase text-white">
+                      путешествие в космос
+                    </h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/ручка.png" alt="ручка.png" />
                     </div>
-                    <h2 className="uppercase">3d ручки</h2>
+                    <h2 className="uppercase text-white">3d ручки</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/замчище.png" alt="замчище.png" />
                     </div>
-                    <h2 className="uppercase">городок Полесье</h2>
+                    <h2 className="uppercase text-white">городок Полесье</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/батут.png" alt="батут.png" />
                     </div>
-                    <h2 className="uppercase">Суперпопрыгунчики</h2>
+                    <h2 className="uppercase text-white">Суперпопрыгунчики</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/близнецы.png" alt="близнецы.png" />
                     </div>
-                    <h2 className="uppercase">потеряшки</h2>
+                    <h2 className="uppercase text-white">потеряшки</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/кубики.png" alt="кубики.png" />
                     </div>
-                    <h2 className="uppercase">детская площадка</h2>
+                    <h2 className="uppercase text-white">детская площадка</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/футболМяч.png" alt="футболМяч.png" />
                     </div>
-                    <h2 className="uppercase">подвижные игры</h2>
+                    <h2 className="uppercase text-white">подвижные игры</h2>
                   </div>
                 </div>
               </div>
@@ -1426,98 +1434,104 @@ export default function Home() {
                     <div className="flex  items-center justify-center w-[70px] h-[70px]">
                       <img src="/шляпа.png" alt="шляпа.png" />
                     </div>
-                    <h2 className="uppercase">Молочный университет</h2>
+                    <h2 className="uppercase text-white">
+                      Молочный университет
+                    </h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex  items-center justify-center w-[70px] h-[70px]">
                       <img src="/рогатка.png" alt="рогатка.png" />
                     </div>
-                    <h2 className="uppercase">Большая рогатка</h2>
+                    <h2 className="uppercase text-white">Большая рогатка</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex  items-center justify-center w-[70px] h-[70px]">
                       <img src="/колесо.png" alt="колесо.png" />
                     </div>
-                    <h2 className="uppercase">колесо фортуны</h2>
+                    <h2 className="uppercase text-white">колесо фортуны</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex  items-center justify-center w-[70px] h-[70px]">
                       <img src="/почта.png" alt="почта.png" />
                     </div>
-                    <h2 className="uppercase">почтовое отделение</h2>
+                    <h2 className="uppercase text-white">почтовое отделение</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex  items-center justify-center w-[70px] h-[70px]">
                       <img src="/портрет.png" alt="портрет.png" />
                     </div>
-                    <h2 className="uppercase">портрет одного города</h2>
+                    <h2 className="uppercase text-white">
+                      портрет одного города
+                    </h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex  items-center justify-center w-[70px] h-[70px]">
                       <img src="/бант.png" alt="бант.png" />
                     </div>
-                    <h2 className="uppercase">дерево желаний</h2>
+                    <h2 className="uppercase text-white">дерево желаний</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex  items-center justify-center w-[70px] h-[70px]">
                       <img src="/фотогруп.png" alt="фотогруп.png" />
                     </div>
-                    <h2 className="uppercase">фотозона</h2>
+                    <h2 className="uppercase text-white">фотозона</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex  items-center justify-center w-[70px] h-[70px]">
                       <img src="/галерея.png" alt="галерея.png" />
                     </div>
-                    <h2 className="uppercase">галерея молока</h2>
+                    <h2 className="uppercase text-white">галерея молока</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex  items-center justify-center w-[70px] h-[70px]">
                       <img src="/шезлонг.png" alt="шезлонг.png" />
                     </div>
-                    <h2 className="uppercase">пятнистый лаундж</h2>
+                    <h2 className="uppercase text-white">пятнистый лаундж</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex  items-center justify-center w-[70px] h-[70px]">
                       <img src="/кубикМонополия.png" alt="кубикМонополия.png" />
                     </div>
-                    <h2 className="uppercase">молочные игры</h2>
+                    <h2 className="uppercase text-white">молочные игры</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex  items-center justify-center w-[70px] h-[70px]">
                       <img src="/корова.png" alt="корова.png" />
                     </div>
-                    <h2 className="uppercase">любимая корова фестиваля</h2>
+                    <h2 className="uppercase text-white">
+                      любимая корова фестиваля
+                    </h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex  items-center justify-center w-[70px] h-[70px]">
                       <img src="/молоковоз.png" alt="молоковоз.png" />
                     </div>
-                    <h2 className="uppercase">dj молоковоз</h2>
+                    <h2 className="uppercase text-white">dj молоковоз</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex  items-center justify-center w-[70px] h-[70px]">
                       <img src="/скутер.png" alt="скутер.png" />
                     </div>
-                    <h2 className="uppercase">молочная доставка</h2>
+                    <h2 className="uppercase text-white">молочная доставка</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex  items-center justify-center w-[70px] h-[70px]">
                       <img src="/тарелка.png" alt="тарелка.png" />
                     </div>
-                    <h2 className="uppercase">кафе «сырочки»</h2>
+                    <h2 className="uppercase text-white">кафе «сырочки»</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
@@ -1527,7 +1541,7 @@ export default function Home() {
                         alt="роботы молочники.png"
                       />
                     </div>
-                    <h2 className="uppercase">роботы-молочники</h2>
+                    <h2 className="uppercase text-white">роботы-молочники</h2>
                   </div>
                 </div>
               </div>
@@ -1550,115 +1564,127 @@ export default function Home() {
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/баскетбол.png" alt="баскетбол.png" />
                     </div>
-                    <h2 className="uppercase">стадион теос</h2>
+                    <h2 className="uppercase text-white">стадион теос</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/бег.png" alt="бег.png" />
                     </div>
-                    <h2 className="uppercase">полоса препятствий</h2>
+                    <h2 className="uppercase text-white">полоса препятствий</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/фишки.png" alt="фишки.png" />
                     </div>
-                    <h2 className="uppercase">настольные игры</h2>
+                    <h2 className="uppercase text-white">настольные игры</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/фотогруп.png" alt="фотогруп.png" />
                     </div>
-                    <h2 className="uppercase">фотозона</h2>
+                    <h2 className="uppercase text-white">фотозона</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/гантеля.png" alt="гантеля.png" />
                     </div>
-                    <h2 className="uppercase">тренажеры</h2>
+                    <h2 className="uppercase text-white">тренажеры</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/йогурт.png" alt="йогурт.png" />
                     </div>
-                    <h2 className="uppercase">йогурт бар</h2>
+                    <h2 className="uppercase text-white">йогурт бар</h2>
                   </div>
                   {/* Этот код был создан Сергеем Лободиным */}
-                  <div className="flex justify-center items-center mb:mt-0 mt-36">
-                    <div className="relative w-[187px] h-[100px] ">
-                      <h1 className="text-center absolute z-10 text-white text-xl font-rotonda uppercase top-[50%] right-1/2 translate-y-[-40%] translate-x-[50%]">
-                        брест-литовск
-                      </h1>
-                      <img
-                        className="absolute z-1 group-hover:drop-shadow-3xl"
-                        src="/оранжевое.png"
-                        alt="оранжевое.png"
-                      />
-                    </div>
-                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Еще один блок */}
+            <div className="flex mb:w-full flex-col justify-start items-center">
+              <div className="flex justify-center items-center mb:mt-0 ">
+                <div className="relative w-[187px] h-[100px] ">
+                  <h1 className="text-center absolute z-10 text-white text-xl font-rotonda uppercase top-[50%] right-1/2 translate-y-[-40%] translate-x-[50%]">
+                    брест-литовск
+                  </h1>
+                  <img
+                    className="absolute z-1 group-hover:drop-shadow-3xl"
+                    src="/оранжевое.png"
+                    alt="оранжевое.png"
+                  />
+                </div>
+              </div>
+              <div className="flex mb:w-full justify-between items-stretch gap-8">
+                <div className="flex mb:w-full flex-col justify-between items-stretch">
+                  {/* Этот код был создан Сергеем Лободиным */}
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/фотогруп.png" alt="фотогруп.png" />
                     </div>
-                    <h2 className="uppercase">фотозона</h2>
+                    <h2 className="uppercase text-white">фотозона</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/сыр.png" alt="сыр.png" />
                     </div>
-                    <h2 className="uppercase">сыроварня</h2>
+                    <h2 className="uppercase text-white">сыроварня</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/дом.png" alt="дом.png" />
                     </div>
-                    <h2 className="uppercase">мини брест исторический</h2>
+                    <h2 className="uppercase text-white">
+                      мини брест исторический
+                    </h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/крестики.png" alt="крестики.png" />
                     </div>
-                    <h2 className="uppercase">винтажные игры</h2>
+                    <h2 className="uppercase text-white">винтажные игры</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/гитара.png" alt="гитара.png" />
                     </div>
-                    <h2 className="uppercase">уличные музыканты</h2>
+                    <h2 className="uppercase text-white">уличные музыканты</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/маски.png" alt="маски.png" />
                     </div>
-                    <h2 className="uppercase">уличный театр</h2>
+                    <h2 className="uppercase text-white">уличный театр</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/скульптура.png" alt="скульптура.png" />
                     </div>
-                    <h2 className="uppercase">ожившие скульптуры</h2>
+                    <h2 className="uppercase text-white">ожившие скульптуры</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/сыры.png" alt="сыры.png" />
                     </div>
-                    <h2 className="uppercase">сырная лавка</h2>
+                    <h2 className="uppercase text-white">сырная лавка</h2>
                   </div>
                 </div>
               </div>
             </div>
+
             {/* четвертый блок */}
             <div className="flex mb:w-full flex-col justify-start items-center">
               <div className="relative w-[187px] h-[100px] ">
@@ -1677,49 +1703,83 @@ export default function Home() {
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/сцена.png" alt="сцена.png" />
                     </div>
-                    <h2 className="uppercase">сцена</h2>
+                    <h2 className="uppercase text-white">сцена</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/подарок.png" alt="подарок.png" />
                     </div>
-                    <h2 className="uppercase">выдача призов</h2>
+                    <h2 className="uppercase text-white">выдача призов</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/фотоквест.png" alt="фотоквест.png" />
                     </div>
-                    <h2 className="uppercase">фото-квест</h2>
+                    <h2 className="uppercase text-white">фото-квест</h2>
                   </div>
+                </div>
+              </div>
+            </div>
 
-                  <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6 mb:mt-0 mt-[29.5rem]">
+            {/* пятый блок */}
+            <div className="absolute mb:relative mb:mt-20 mb:bottom-0 mb:right-0 bottom-[20%] right-[15rem] flex mb:w-full flex-col justify-start items-center">
+              <div className="relative flex mb:flex-col mb:w-full justify-between items-center gap-8 ">
+                <img
+                  className="absolute z-1 mb:min-h-[750px] min-h-[450px] mb:min-w-[1150px] min-w-[750px] mb:-translate-x-[10%] mb:-translate-y-[15%] -translate-x-[25%] group-hover:drop-shadow-3xl"
+                  src="/cloud.svg"
+                  alt="cloud.svg"
+                />
+                <div className="relative flex mb:w-full flex-col justify-between items-stretch z-10">
+                  <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6 mb:mt-0 ">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/инфокуб.png" alt="инфокуб.png" />
                     </div>
-                    <h2 className="uppercase">инфокуб</h2>
+                    <h2 className="uppercase ">инфокуб</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/инфоСтойка.png" alt="инфоСтойка.png" />
                     </div>
-                    <h2 className="uppercase">инфостойка</h2>
+                    <h2 className="uppercase ">инфостойка</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/зонаОтдыха.png" alt="зонаОтдыха.png" />
                     </div>
-                    <h2 className="uppercase">зона отдыха</h2>
+                    <h2 className="uppercase ">зона отдыха</h2>
                   </div>
 
                   <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
                     <div className="flex items-center justify-center w-[70px] h-[70px]">
                       <img src="/беседкаДом.png" alt="беседкаДом.png" />
                     </div>
-                    <h2 className="uppercase">беседка</h2>
+                    <h2 className="uppercase ">беседка</h2>
+                  </div>
+                </div>
+                <div className="relative flex mb:w-full flex-col justify-between items-stretch z-10">
+                  <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6 mb:mt-0 ">
+                    <div className="flex items-center justify-center w-[70px] h-[70px]">
+                      <img src="/wc.svg" alt="wc.svg" />
+                    </div>
+                    <h2 className="uppercase ">Туалет</h2>
+                  </div>
+
+                  <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
+                    <div className="flex items-center justify-center w-[70px] h-[70px]">
+                      <img src="/мчс.svg" alt="мчс.svg" />
+                    </div>
+                    <h2 className="uppercase ">Скорая</h2>
+                  </div>
+
+                  <div className="flex mb:justify-start mb:ml-[7%] items-center gap-6">
+                    <div className="flex items-center justify-center w-[70px] h-[70px]">
+                      <img src="/скорая.svg" alt="скорая.svg" />
+                    </div>
+                    <h2 className="uppercase ">мчс</h2>
                   </div>
                 </div>
               </div>
