@@ -184,11 +184,11 @@ export default function Home() {
 
               <TooltipProvider delayDuration={100}>
                 <Tooltip>
-                  <TooltipTrigger className="absolute  top-[81%] left-[28%]">
+                  <TooltipTrigger className="absolute  mb:top-[82%] top-[81%] mb:left-[27%] left-[28%]">
                     <img
                       src="/иконки2.png"
                       alt="иконки2.png"
-                      className="mb:w-[30%]"
+                      className="mb:w-1/2"
                     />
                   </TooltipTrigger>
                 </Tooltip>
